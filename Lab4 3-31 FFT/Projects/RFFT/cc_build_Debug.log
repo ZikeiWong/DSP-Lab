@@ -1,0 +1,11 @@
+------------------------------  rfft.pjt - Debug  ------------------------------
+"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+undefined                        first referenced
+ symbol                              in file
+---------                        ----------------
+_main                            d:/ti/c5400/cgtools/lib/rts.lib
+>>   error: symbol referencing errors - './Debug/rfft.out' not built
+
+Build Complete,
+  1 Errors, 0 Warnings, 0 Remarks.

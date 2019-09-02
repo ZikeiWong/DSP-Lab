@@ -1,0 +1,123 @@
+******************************************************************************
+         TMS320C54x COFF Linker PC Version 3.83                
+******************************************************************************
+>> Linked Sun Mar 31 14:59:56 2019
+
+OUTPUT FILE NAME:   <./Debug/FFT.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000000
+
+
+MEMORY CONFIGURATION
+
+                  name            origin    length      used    attr    fill
+         ----------------------  --------  ---------  --------  ----  --------
+PAGE  0: PROG                    00000080   0000ff00  000002b4  RWIX
+
+PAGE  1: DATA                    00000080   0000ff80  00000b0e  RW  
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.data      0    00000000    00000000     UNINITIALIZED
+
+.cinit     0    00000000    00000000     
+
+.pinit     0    00000000    00000000     
+
+.text      0    00000080    000002b4     
+                  00000080    000002b4     fft.obj (.text)
+
+.bss       1    00000080    00000b00     UNINITIALIZED
+                  00000080    00000b00     fft.obj (.bss)
+
+.const     1    00000b80    0000000e     
+                  00000b80    0000000e     fft.obj (.const)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000080   .bss
+00000000   .data
+00000080   .text
+UNDEFED F$$ADD
+UNDEFED F$$DIV
+UNDEFED F$$FTOI
+UNDEFED F$$ITOF
+UNDEFED F$$MUL
+UNDEFED F$$SUB
+00000080   ___bss__
+ffffffff   ___cinit__
+00000000   ___data__
+00000000   ___edata__
+00000b80   ___end__
+00000334   ___etext__
+ffffffff   ___pinit__
+00000080   ___text__
+00000001   __lflags
+UNDEFED _c_int00
+UNDEFED _cos
+00000980   _cos_tab
+00000113   _fft
+00000380   _fwavei
+00000180   _fwaver
+000000b9   _init_fft_tab
+00000080   _input
+UNDEFED _input_data
+00000080   _main
+00000780   _sin_tab
+UNDEFED _sqrt
+00000580   _w
+ffffffff   cinit
+00000000   edata
+00000b80   end
+00000334   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   ___data__
+00000000   ___edata__
+00000000   edata
+00000000   .data
+00000001   __lflags
+00000080   _input
+00000080   ___bss__
+00000080   _main
+00000080   .text
+00000080   .bss
+00000080   ___text__
+000000b9   _init_fft_tab
+00000113   _fft
+00000180   _fwaver
+00000334   etext
+00000334   ___etext__
+00000380   _fwavei
+00000580   _w
+00000780   _sin_tab
+00000980   _cos_tab
+00000b80   end
+00000b80   ___end__
+ffffffff   cinit
+UNDEFED F$$MUL
+UNDEFED _sqrt
+UNDEFED F$$FTOI
+ffffffff   pinit
+UNDEFED F$$ITOF
+UNDEFED F$$SUB
+ffffffff   ___pinit__
+UNDEFED _c_int00
+UNDEFED _cos
+UNDEFED F$$ADD
+ffffffff   ___cinit__
+UNDEFED _input_data
+UNDEFED F$$DIV
+
+[36 symbols]

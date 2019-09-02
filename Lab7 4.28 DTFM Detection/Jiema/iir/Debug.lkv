@@ -1,0 +1,4 @@
+-z -q -c -o"./Debug/iir5.out" -x -i"../.." -i"c:/ti/c5500/bios/lib" -i"c:/ti/c5500/rtdx/lib" -i"c:/ti/c5500/cgtools/lib" -l"55xdsp.lib" -l"rts55.lib"
+"S:\projects\dsplib\55x\55x_Prod220\EXAMPLES\IIR5\Debug\IIR5_T.obj"
+"S:\projects\dsplib\55x\55x_Prod220\EXAMPLES\IIR5\Debug\TEST.obj"
+"S:\projects\dsplib\55x\55x_Prod220\EXAMPLES\IIR5\55x.cmd"

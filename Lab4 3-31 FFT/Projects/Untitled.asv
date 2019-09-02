@@ -1,0 +1,19 @@
+f1=30;f2=100;fs=400;N=512;
+x=linspace(0,N/fs,N);
+y1=sin(2*pi*f1*x);
+y2=sin(2*pi*f2*x);
+y=(y1+y2)/200;
+
+A=fi(y,1,16,15);
+B=hex(A);
+q=quantizer([16,15]);
+r=hex2num(q,B);
+t=num2hex(q,r);
+
+fid=fopen('test.dat','w');
+fprintf(fid,'1651 1 0 1 0 \r\n');
+for i=1:512
+    fprintf(fid,'0x%s%s%s%s\r\n',t(i),t(i+512),t(i+1024),t(i+1536));
+    fprintf(fid,'0x0000\r\n';
+end
+fclose(fid);

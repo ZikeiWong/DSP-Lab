@@ -1,0 +1,13 @@
+------------------------------  FFT.pjt - Debug  ------------------------------
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"e:/2700126/fft/FFT/Debug" -d"_DEBUG" -@"Debug.lkf" "fft.c"
+
+"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+>> E:\2700126\fft\FFT\fft.cmd, line 7: warning: 
+               unrecognized option: sysstack (ignored)
+-sysstack 500
+>> E:\2700126\fft\FFT\fft.cmd, line 7:   error: 
+               syntax error
+>> fft.cmd:   error: can't open file 'l.obj' for input
+
+Build Complete,
+  2 Errors, 1 Warnings, 0 Remarks.

@@ -1,0 +1,10 @@
+------------------------------  iir5.pjt - Debug  ------------------------------
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"D:/ti/c5400/dsplib/EXAMPLES/IIR5/Debug" -i"../../include" -d"_DEBUG" -@"Debug.lkf" "IIR5_T.C"
+"IIR5_T.C", line 31: warning: statement is unreachable
+
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"D:/ti/c5400/dsplib/EXAMPLES/IIR5/Debug" -i"../../include" -d"_DEBUG" -@"Debug.lkf" "TEST.C"
+
+"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

@@ -1,0 +1,12 @@
+------------------------------  iir5.pjt - Debug  ------------------------------
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"E:/2700126/DTFM2/IIR5/Debug" -i"D:/ti/c5400/dsplib/include" -d"_DEBUG" -@"Debug.lkf" "IIR5_T.C"
+"IIR5_T.C", line 109: warning: last line of file ends without a newline
+"test.h", line 17: warning: pragma can only be applied to a file level symbol, not 'h'
+
+"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+>>   error: can't allocate .bss (sz: 00001b90 page: 1) in INT_DM_RAM (avail:
+            00001bfe)
+>>   error: errors in input - ./Debug/iir5.out not built
+
+Build Complete,
+  2 Errors, 2 Warnings, 0 Remarks.

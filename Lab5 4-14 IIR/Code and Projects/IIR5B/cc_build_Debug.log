@@ -1,0 +1,11 @@
+------------------------------  iir5.pjt - Debug  ------------------------------
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"E:/2700126/IIR5/Debug" -i"D:/ti/c5400/dsplib/include" -d"_DEBUG" -@"Debug.lkf" "IIR5_T.C"
+"IIR5_T.C", line 45: warning: statement is unreachable
+"test.h", line 13: warning: pragma can only be applied to a file level symbol, not 'h'
+
+"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"E:/2700126/IIR5/Debug" -i"D:/ti/c5400/dsplib/include" -d"_DEBUG" -@"Debug.lkf" "TEST.C"
+
+"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 2 Warnings, 0 Remarks.

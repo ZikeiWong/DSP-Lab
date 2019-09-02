@@ -1,0 +1,4 @@
+-z -q -c -o"./Debug/fir.out" -x -i"../../" -i"d:/ti/C5400/bios/lib" -i"d:/ti/C5400/dsk5416/lib" -i"d:/ti/c5400/rtdx/lib" -i"d:/ti/c5400/xdais/lib" -i"d:/ti/c5400/cgtools/lib" -l"rts.lib" -l"54xdsp.lib"
+"D:\ti\c5400\dsplib\EXAMPLES\FIR\Debug\FIR_T.obj"
+"D:\ti\c5400\dsplib\EXAMPLES\FIR\Debug\TEST.obj"
+"D:\ti\c5400\dsplib\EXAMPLES\FIR\FIR.CMD"
