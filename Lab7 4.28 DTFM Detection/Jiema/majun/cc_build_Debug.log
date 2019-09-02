@@ -1,8 +1,0 @@
------------------------------  majun.pjt - Debug  -----------------------------
-"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"e:/majun/majun/Debug" -d"_DEBUG" -@"e:/majun/majun/Debug.lkf" "VOLUME.C"
-
-"d:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
->> warning: entry point symbol _c_int00 undefined
-
-Build Complete,
-  0 Errors, 1 Warnings, 0 Remarks.

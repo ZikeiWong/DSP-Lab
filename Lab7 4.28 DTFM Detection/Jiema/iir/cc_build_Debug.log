@@ -1,8 +1,0 @@
-------------------------------  iir5.pjt - Debug  ------------------------------
-"d:\ti\c5400\cgtools\bin\cl500" -g -q -fr"E:/majun/iir/Debug" -i"../../include" -d"_DEBUG" -@"Debug.lkf" "IIR5_T.C"
-"IIR5_T.C", line 9: fatal error: could not open source file "tms320.h"
-1 fatal error detected in the compilation of "IIR5_T.C".
-Compilation terminated.
-
-Build Complete,
-  1 Errors, 0 Warnings, 0 Remarks.

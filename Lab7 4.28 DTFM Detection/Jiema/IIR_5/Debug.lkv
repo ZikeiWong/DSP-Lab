@@ -1,4 +1,0 @@
--z -q -c -o"./Debug/iir5.out" -x -i"../../" -i"d:/ti/C5400/bios/lib" -i"d:/ti/C5400/dsk5416/lib" -i"d:/ti/c5400/rtdx/lib" -i"d:/ti/c5400/xdais/lib" -i"d:/ti/c5400/cgtools/lib" -l"rts.lib" -l"54xdsp.lib"
-"D:\ti\c5400\dsplib\EXAMPLES\IIR5\Debug\IIR5_T.obj"
-"D:\ti\c5400\dsplib\EXAMPLES\IIR5\Debug\TEST.obj"
-"D:\ti\c5400\dsplib\EXAMPLES\IIR5\FIR.CMD"

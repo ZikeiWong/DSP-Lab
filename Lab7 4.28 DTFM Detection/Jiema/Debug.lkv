@@ -1,3 +1,0 @@
--z -q -estart -m"./Debug/majun.map" -o"./Debug/majun.out" -x -i"d:/ti/C5400/bios/lib" -i"d:/ti/C5400/dsk5416/lib" -i"d:/ti/c5400/rtdx/lib" -i"d:/ti/c5400/xdais/lib" -i"d:/ti/c5400/cgtools/lib"
-"e:\majun\Debug\UseCMD.obj"
-"D:\ti\myprojects\ICETEK-VC5416-F\Lab2-UseCMD\UseCMD.cmd"
